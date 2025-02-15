@@ -1,0 +1,18 @@
+pyrogram
+TgCrypto
+pyromod
+# --- For-Database ------------ #
+pymongo
+motor
+umongo
+apscheduler
+dnspython
+marshmallow
+# --- For-Web-Response ------- #
+pytz
+requests
+bs4
+shortzy
+aiohttp
+aiofiles
+asyncio
