@@ -41,7 +41,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Backbencher")
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
 # 
-TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False
+
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "0b12741fb3894a59ca534181f8fb60a83b107b38")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
