@@ -8,8 +8,8 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Back_bencherBot")
 BAN = int(os.environ.get("BAN", "498459845"))
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 30)) #seconds
-NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 30)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 1800)) #seconds
+NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 86400)) #seconds
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 DELETE_INFORM = os.environ.get("INFORM" , "")
 NOTIFICATION = os.environ.get("NOTIFICATION" ,f"<b>This file will be deleted in 30 mins. Please save or forward it to your saved messages before it gets deleted.</b>")
